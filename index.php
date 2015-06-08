@@ -34,13 +34,16 @@
       </div><!-- /.container-fluid -->
     </nav>
     <div class="col-md-12 col-lg-12 elslide">
-
+      <div class="col-lg-5 introsquare col-lg-offset-3">
+        <h1 class="introH1">Brandon Espinoza</h1>
+        <h3 class="introP">Web Designer | Web Developer | Photograher</h3>
+      </div>
     </div>
 
 
 
     <div id="about" class="col-lg-12">
-      <h1 class="h1s h1Margins">About Me</h1>
+      <h1 class="h1s h1Margins">About Me</h1><hr>
       <div class="col-lg-6 elemMargins">
         <div class="col-lg-2">
           <h3 class="h3s">Profile:</h3>
@@ -97,7 +100,7 @@
 
 <!--------------- * WHAT I DO * ----------------->
     <div id="iDo" class="iDo col-lg-12">
-      <h1 class="h1s h1Margins whtIdo">What I Do</h1>
+      <h1 class="h1s h1Margins whtIdo">What I Do</h1><hr>
       <div class="container">
         <div class="col-lg-12 elemMargins">
           <div class="h1Margins col-lg-3 squares">
@@ -117,7 +120,7 @@
     </div>
 <!--------------- * Portfolio * ----------------->
     <div id="clients" class="col-lg-12">
-      <h1 class="h1s h1Margins">Portfolio and Clients</h1>
+      <h1 class="h1s h1Margins">Portfolio and Clients</h1><hr>
       <div class="container cont">
         <div class="row">
           <div class="col-sm-3 col-lg-3">
@@ -152,8 +155,8 @@
             <button type="submit" class="btn btn-default btn-lg contactHs">Submit</button>
           </form>
           <div class="col-lg-4">
-            <a target="_blank" href="htpp://www.github.com/bespinoza10"><i class="fa fa-github"></i>
-            <a target="_blank" href="https://www.linkedin.com/in/bespinoza10"><i class="dibujo fa fa-linkedin"></i>
+            <a target="_blank" href="htpp://www.github.com/bespinoza10"><i class="fa fa-github social"></i>
+            <a target="_blank" href="https://www.linkedin.com/in/bespinoza10"><i class="dibujo fa fa-linkedin social"></i>
           </div>
         </div>
       </div>

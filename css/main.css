@@ -7,11 +7,26 @@ body{
   height: 100%;
 }
 
+hr{
+  height: 50px;
+}
+
 .elslide{
   background-image: url('../img/computer.jpg');
   background-size: 100%;
   background-attachment: fixed;
   height: 750px;
+}
+
+
+.introsquare{
+  background: rgba(255, 255, 255, 0.85);
+  margin-top: 300px;
+  /*   border: 5px solid #2F3238; */
+}
+
+nav .navbar-default{
+  border: 2px solid #000;
 }
 
 div .navbar-brand{
@@ -27,16 +42,19 @@ div .navbar-brand{
 }
 
 .introH1{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #000;
   font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
 }
-.introP{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-  color: #ffffff;
 
+.introP{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 nav.navbar-default{
@@ -45,7 +63,7 @@ nav.navbar-default{
 }
 
 .h1Margins{
-  margin-left: 30px;
+  text-align: center;
 }
 
 /************** * Carousel * **************/
@@ -202,12 +220,12 @@ button.btn{
   border-radius: none;
 }
 
-.fa{
+.social{
   font-size: 40px;
   color: #2F3238;
 }
 
-.fa:hover{
+.social:hover{
   font-size: 40px;
   color: #ffffff;
 }

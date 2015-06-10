@@ -8,4 +8,7 @@ $current = rand() . "\n";
 // Write the contents back to the file
 file_put_contents($file, $current);
 
+$url = '../index.php?mailer=yes';
+echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
+
 ?>

@@ -16,6 +16,7 @@ hr{
   background-size: 100%;
   background-attachment: fixed;
   height: 750px;
+  background-repeat: no-repeat;
 }
 
 
@@ -63,6 +64,7 @@ nav.navbar-default{
 }
 
 .h1Margins{
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -85,6 +87,20 @@ nav.navbar-default{
 
 .elemMargins{
   margin-top: 100px;
+}
+div .profilePP{
+  background-color: #2F3238;
+  padding-left: 0px;
+}
+div .col5Pad{
+  padding-left: 0px;
+}
+
+.proImgP{
+  margin-top: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  font-size: 25px;
 }
 
 .h1s{
@@ -193,6 +209,7 @@ div .progress-bar{
   background-image: url('../img/writing.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .contactH1{
@@ -234,7 +251,7 @@ button.btn{
 
 #con_sel{
 display:none;
-font-family: 'Open Sans Condensed', sans-serif;	
+font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #choozEMAIL{
@@ -269,5 +286,5 @@ float:left;
 }
 
 .EmailChoiz{
-text-align:center;	
+text-align:center;
 }

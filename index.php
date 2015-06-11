@@ -18,11 +18,15 @@ include('includes/mail_script.php');
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/mediaQ.css">
     <script type="text/javascript" src="emailkey/jquery.js"></script>
   </head>
 <!--   <body> -->
 
   <body data-spy="scroll" data-target="navbar-nav">
+
+    <!-- NAV-BAR -->
+
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,8 +39,7 @@ include('includes/mail_script.php');
           </button>
           <a  class="navbar-brand" href="#home">Brandon Espinoza</a>
         </div>
-
-
+            <!-- LOGIN BUTTON -->
 			<div style="display:none;" id="loginSEC" class="col-lg-12 cont">
      		<div class="container">
        		<div class="row">
@@ -51,9 +54,6 @@ include('includes/mail_script.php');
            </div>
           </div>
         </div>
-
-
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
@@ -75,29 +75,30 @@ include('includes/mail_script.php');
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <!-- INTRODUCCION SQUARE -->
     <div id="home" class="col-md-12 col-lg-12 elslide">
-      <div class="wow slideInDown  col-lg-5 introsquare col-lg-offset-3" data-wow-delay=".3s" >
+      <div class="wow slideInDown col-md-12 col-lg-5 introsquare col-lg-offset-3" data-wow-delay=".3s" >
         <h1 class="introH1">Brandon Espinoza</h1>
         <h3 class="introP">Web Designer | Web Developer | Photograher</h3>
       </div>
     </div>
 
+    <!----- * ABOUT SECTION * ---->
 
-
-    <div id="about" class=" col-lg-12">
+    <div id="about" class="col-md-12 col-lg-12">
       <h1 class="wow fadeInLeft  h1s h1Margins" data-wow-offset="10" >About Me</h1><hr>
       <div class="col-lg-6 elemMargins wow flipInX " data-wow-offset="10" data-wow-delay=".6s">
-        <div class="col-lg-2">
+        <div class="col-md-1 col-lg-2">
           <h3 class="h3s">Profile:</h3>
         </div>
-        <div class="col-lg-10">
+        <div class="col-md-11 col-lg-10">
           <h3 class="h3s">Web Developer, Photographer, Web Designer</h3>
         </div>
-        <!-------- * SKILLS PROGRESS BAR * -------->
+        <!--- SKILLS PROGRESS BAR ---->
         <div class="col-lg-3">
           <h3 class="h3s">My Skills:</h3>
         </div>
-        <div class="col-lg-8">
+        <div class="col-md-6 col-lg-8">
           <div class="progress">
             <div class="progress-bar wow slideInLeft " data-wow-offset="20" data-wow-delay="1.1s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
               <span class="skillDesc">HTML 90%</span>
@@ -136,18 +137,18 @@ include('includes/mail_script.php');
         </div>
       </div>
 
-      <div class="wow bounceInRight  col-lg-6 profilePP elemMargins" data-wow-offset="10" >
-        <div class="col-lg-5 col5Pad">
+      <div class="wow bounceInRight col-md-6 col-lg-6 profilePP elemMargins" data-wow-offset="10" >
+        <div class="col-md-5 col-lg-5 col5Pad">
           <img class="wow bounceInRight  img-responsive" src="img/BrandonShots/profile_pic2.jpg" data-wow-offset="10" data-wow-delay=".6s">
         </div>
-        <div class="col-lg-5">
-          <p class="wow fadeIn  proImgP"  data-wow-offset="10" data-wow-delay="1.3s">I am assisting to the Nashville Software School. I enjoy coding and learning new languages. I also do some side jobs like making websites and photograpy, please contact me for serious inquiries only.</p>
+        <div class="col-md-6 col-lg-5">
+          <p class="wow fadeIn  proImgP" data-wow-offset="10" data-wow-delay="1.3s">I am attending to the Nashville Software School. I enjoy coding and learning new languages. I also do some side jobs like making websites and photography, please contact me for serious inquiries only.</p>
         </div>
 				<!-- <img class="img-responsive" src="img/profile.png"> -->
 
       </div>
     </div>
-    <div id="iDo" class="iDo col-lg-12">
+    <div id="iDo" class="iDo col-md-12 col-lg-12">
       <h1 class="h1s h1Margins whtIdo wow fadeInLeft " data-wow-offset="10">What I Do</h1><hr>
       <div class="container">
         <div class="col-lg-12 elemMargins">
@@ -166,7 +167,7 @@ include('includes/mail_script.php');
         </div>
       </div>
     </div>
-    <div id="clients" class="col-lg-12">
+    <div id="clients" class=" col-md-12 col-lg-12">
       <h1 class="h1s h1Margins wow fadeInLeft " data-wow-offset="10" >Portfolio and Clients</h1><hr>
       <div class="container cont">
         <div class="row">
@@ -183,7 +184,7 @@ include('includes/mail_script.php');
       </div>
     </div>
       <!-- EMAIL CONTACT FORM  -->
-    <div id="contact" class="col-lg-12 cont">
+    <div id="contact" class="col-md-12 col-lg-12 cont">
       <div class="container">
         <div class="row">
           <form  action="" method="post" class="wow lightSpeedIn col-lg-8 col-lg-offset-2" data-wow-offset="10">

@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px){
+  div .elemMargins{
+    margin-top: 0px;
+  }
+  .proImgP{
+      font-size: 18px;
+  }
+}
